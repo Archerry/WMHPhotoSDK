@@ -13,4 +13,7 @@
    <FileRef
       location = "group:WMHPhotoSDK.podspec">
    </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
 </Workspace>
