@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Archerry/WMHPhotoSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'minhangwang' => '925592454@qq.com' }
+  s.author           = { 'Archer' => 'minhang.wang@icloud.com' }
   s.source           = { :git => 'https://github.com/Archerry/WMHPhotoSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
