@@ -1,0 +1,6 @@
+framework module Pods_WMHPhotoSDK_WMHPhotoSDKTests {
+  umbrella header "Pods-WMHPhotoSDK-WMHPhotoSDKTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

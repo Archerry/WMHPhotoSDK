@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WMHSelectThumbnailCell" customModule="WMHPhotoSDK">
+            <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0px-rB-iAk">
+                        <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="58" id="9W4-mZ-ODj"/>
+                            <constraint firstAttribute="height" constant="58" id="iO1-0Q-cwB"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9vg-t4-VG1">
+                        <rect key="frame" x="7" y="38" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="0i3-FQ-J0K"/>
+                            <constraint firstAttribute="width" constant="16" id="SQv-zS-w39"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k2M-34-ZuE">
+                        <rect key="frame" x="0.0" y="0.0" width="58" height="58"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="k2M-34-ZuE" firstAttribute="top" secondItem="0px-rB-iAk" secondAttribute="top" id="7Am-UA-KOk"/>
+                <constraint firstItem="k2M-34-ZuE" firstAttribute="bottom" secondItem="0px-rB-iAk" secondAttribute="bottom" id="N4p-c6-8eb"/>
+                <constraint firstItem="9vg-t4-VG1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="W8p-iA-YiS"/>
+                <constraint firstAttribute="bottom" secondItem="9vg-t4-VG1" secondAttribute="bottom" constant="4" id="enb-2p-WwF"/>
+                <constraint firstItem="k2M-34-ZuE" firstAttribute="trailing" secondItem="0px-rB-iAk" secondAttribute="trailing" id="hSk-1Y-PN9"/>
+                <constraint firstItem="0px-rB-iAk" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="rcU-Ig-0CF"/>
+                <constraint firstItem="k2M-34-ZuE" firstAttribute="leading" secondItem="0px-rB-iAk" secondAttribute="leading" id="x23-4H-OkT"/>
+                <constraint firstItem="0px-rB-iAk" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="yAb-N8-iaw"/>
+            </constraints>
+            <connections>
+                <outlet property="assetImgView" destination="0px-rB-iAk" id="Qqn-ef-weF"/>
+                <outlet property="borderImg" destination="k2M-34-ZuE" id="1Q7-if-OGW"/>
+                <outlet property="videoImg" destination="9vg-t4-VG1" id="Zah-2o-nUz"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="79"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4432BB653FC3E609C0C22D2D /* Pods_WMHPhotoSDK_WMHPhotoSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54F1FE4B584101864252B68 /* Pods_WMHPhotoSDK_WMHPhotoSDKTests.framework */; };
+		70E595542FAE5F5589BDB1E0 /* Pods_WMHPhotoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CED98F3E276ED7D75A39A3 /* Pods_WMHPhotoSDK.framework */; };
+		FA997E8825899B6E0023CF77 /* WMHPhotoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA997E7E25899B6E0023CF77 /* WMHPhotoSDK.framework */; };
+		FA997E8D25899B6E0023CF77 /* WMHPhotoSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997E8C25899B6E0023CF77 /* WMHPhotoSDKTests.swift */; };
+		FA997E8F25899B6E0023CF77 /* WMHPhotoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FA997E8125899B6E0023CF77 /* WMHPhotoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA997EFF25899C3D0023CF77 /* WMHAlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EEF25899C3D0023CF77 /* WMHAlbumListCell.swift */; };
+		FA997F0025899C3D0023CF77 /* WMHThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA997EF025899C3D0023CF77 /* WMHThumbnailCell.xib */; platformFilter = ios; };
+		FA997F0125899C3D0023CF77 /* WMHIVBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF125899C3D0023CF77 /* WMHIVBrowserCell.swift */; };
+		FA997F0225899C3D0023CF77 /* WMHIVBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF225899C3D0023CF77 /* WMHIVBrowserVC.swift */; };
+		FA997F0325899C3D0023CF77 /* WMHSelectThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA997EF325899C3D0023CF77 /* WMHSelectThumbnailCell.xib */; platformFilter = ios; };
+		FA997F0425899C3D0023CF77 /* WMHBOTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF425899C3D0023CF77 /* WMHBOTools.swift */; };
+		FA997F0525899C3D0023CF77 /* WMHSelectThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF525899C3D0023CF77 /* WMHSelectThumbnailCell.swift */; };
+		FA997F0625899C3D0023CF77 /* ResultBox.h in Headers */ = {isa = PBXBuildFile; fileRef = FA997EF625899C3D0023CF77 /* ResultBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA997F0725899C3D0023CF77 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF725899C3D0023CF77 /* UIColor.swift */; };
+		FA997F0825899C3D0023CF77 /* WMHCompleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF825899C3D0023CF77 /* WMHCompleteButton.swift */; };
+		FA997F0925899C3D0023CF77 /* WMHAlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EF925899C3D0023CF77 /* WMHAlbumListView.swift */; };
+		FA997F0A25899C3D0023CF77 /* WMHConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EFA25899C3D0023CF77 /* WMHConst.swift */; };
+		FA997F0B25899C3D0023CF77 /* WMHThumbnailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EFB25899C3D0023CF77 /* WMHThumbnailVC.swift */; };
+		FA997F0C25899C3D0023CF77 /* WMHThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997EFC25899C3D0023CF77 /* WMHThumbnailCell.swift */; };
+		FA997F0D25899C3D0023CF77 /* WMHToolAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA997EFD25899C3D0023CF77 /* WMHToolAsset.xcassets */; platformFilter = ios; };
+		FA997F0E25899C3D0023CF77 /* ResultBox.m in Sources */ = {isa = PBXBuildFile; fileRef = FA997EFE25899C3D0023CF77 /* ResultBox.m */; };
+		FA997F5925899E1F0023CF77 /* WMHPhotoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA997F5825899E1F0023CF77 /* WMHPhotoTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA997E8925899B6E0023CF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA997E7525899B6E0023CF77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA997E7D25899B6E0023CF77;
+			remoteInfo = WMHPhotoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045A52A9CFD52A0DDA9241B2 /* Pods-WMHPhotoSDK-WMHPhotoSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMHPhotoSDK-WMHPhotoSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-WMHPhotoSDK-WMHPhotoSDKTests/Pods-WMHPhotoSDK-WMHPhotoSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		262B96A4150F02F79DAA4757 /* Pods-WMHPhotoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMHPhotoSDK.debug.xcconfig"; path = "Target Support Files/Pods-WMHPhotoSDK/Pods-WMHPhotoSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		89CED98F3E276ED7D75A39A3 /* Pods_WMHPhotoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMHPhotoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A41A7E334CCA2B911D2990D /* Pods-WMHPhotoSDK-WMHPhotoSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMHPhotoSDK-WMHPhotoSDKTests.release.xcconfig"; path = "Target Support Files/Pods-WMHPhotoSDK-WMHPhotoSDKTests/Pods-WMHPhotoSDK-WMHPhotoSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FC8490AA47453BF5C49350F /* Pods-WMHPhotoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMHPhotoSDK.release.xcconfig"; path = "Target Support Files/Pods-WMHPhotoSDK/Pods-WMHPhotoSDK.release.xcconfig"; sourceTree = "<group>"; };
+		E54F1FE4B584101864252B68 /* Pods_WMHPhotoSDK_WMHPhotoSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMHPhotoSDK_WMHPhotoSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA997E7E25899B6E0023CF77 /* WMHPhotoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMHPhotoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA997E8125899B6E0023CF77 /* WMHPhotoSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHPhotoSDK.h; sourceTree = "<group>"; };
+		FA997E8225899B6E0023CF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA997E8725899B6E0023CF77 /* WMHPhotoSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMHPhotoSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA997E8C25899B6E0023CF77 /* WMHPhotoSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMHPhotoSDKTests.swift; sourceTree = "<group>"; };
+		FA997E8E25899B6E0023CF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA997EEF25899C3D0023CF77 /* WMHAlbumListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHAlbumListCell.swift; sourceTree = "<group>"; };
+		FA997EF025899C3D0023CF77 /* WMHThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMHThumbnailCell.xib; sourceTree = "<group>"; };
+		FA997EF125899C3D0023CF77 /* WMHIVBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHIVBrowserCell.swift; sourceTree = "<group>"; };
+		FA997EF225899C3D0023CF77 /* WMHIVBrowserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHIVBrowserVC.swift; sourceTree = "<group>"; };
+		FA997EF325899C3D0023CF77 /* WMHSelectThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMHSelectThumbnailCell.xib; sourceTree = "<group>"; };
+		FA997EF425899C3D0023CF77 /* WMHBOTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHBOTools.swift; sourceTree = "<group>"; };
+		FA997EF525899C3D0023CF77 /* WMHSelectThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHSelectThumbnailCell.swift; sourceTree = "<group>"; };
+		FA997EF625899C3D0023CF77 /* ResultBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultBox.h; sourceTree = "<group>"; };
+		FA997EF725899C3D0023CF77 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FA997EF825899C3D0023CF77 /* WMHCompleteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHCompleteButton.swift; sourceTree = "<group>"; };
+		FA997EF925899C3D0023CF77 /* WMHAlbumListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHAlbumListView.swift; sourceTree = "<group>"; };
+		FA997EFA25899C3D0023CF77 /* WMHConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHConst.swift; sourceTree = "<group>"; };
+		FA997EFB25899C3D0023CF77 /* WMHThumbnailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHThumbnailVC.swift; sourceTree = "<group>"; };
+		FA997EFC25899C3D0023CF77 /* WMHThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHThumbnailCell.swift; sourceTree = "<group>"; };
+		FA997EFD25899C3D0023CF77 /* WMHToolAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WMHToolAsset.xcassets; sourceTree = "<group>"; };
+		FA997EFE25899C3D0023CF77 /* ResultBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultBox.m; sourceTree = "<group>"; };
+		FA997F5825899E1F0023CF77 /* WMHPhotoTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMHPhotoTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA997E7B25899B6E0023CF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E595542FAE5F5589BDB1E0 /* Pods_WMHPhotoSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA997E8425899B6E0023CF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA997E8825899B6E0023CF77 /* WMHPhotoSDK.framework in Frameworks */,
+				4432BB653FC3E609C0C22D2D /* Pods_WMHPhotoSDK_WMHPhotoSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281B5ECEA4FF6DDD344D0E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CED98F3E276ED7D75A39A3 /* Pods_WMHPhotoSDK.framework */,
+				E54F1FE4B584101864252B68 /* Pods_WMHPhotoSDK_WMHPhotoSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1B956CE866CB64B1C1C0ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				262B96A4150F02F79DAA4757 /* Pods-WMHPhotoSDK.debug.xcconfig */,
+				9FC8490AA47453BF5C49350F /* Pods-WMHPhotoSDK.release.xcconfig */,
+				045A52A9CFD52A0DDA9241B2 /* Pods-WMHPhotoSDK-WMHPhotoSDKTests.debug.xcconfig */,
+				9A41A7E334CCA2B911D2990D /* Pods-WMHPhotoSDK-WMHPhotoSDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA997E7425899B6E0023CF77 = {
+			isa = PBXGroup;
+			children = (
+				FA997E8025899B6E0023CF77 /* Sources */,
+				FA997E8B25899B6E0023CF77 /* WMHPhotoSDKTests */,
+				FA997E7F25899B6E0023CF77 /* Products */,
+				B1B956CE866CB64B1C1C0ACC /* Pods */,
+				281B5ECEA4FF6DDD344D0E4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA997E7F25899B6E0023CF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA997E7E25899B6E0023CF77 /* WMHPhotoSDK.framework */,
+				FA997E8725899B6E0023CF77 /* WMHPhotoSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA997E8025899B6E0023CF77 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA997F5825899E1F0023CF77 /* WMHPhotoTool.swift */,
+				FA997EF625899C3D0023CF77 /* ResultBox.h */,
+				FA997EFE25899C3D0023CF77 /* ResultBox.m */,
+				FA997EF725899C3D0023CF77 /* UIColor.swift */,
+				FA997EEF25899C3D0023CF77 /* WMHAlbumListCell.swift */,
+				FA997EF925899C3D0023CF77 /* WMHAlbumListView.swift */,
+				FA997EF425899C3D0023CF77 /* WMHBOTools.swift */,
+				FA997EF825899C3D0023CF77 /* WMHCompleteButton.swift */,
+				FA997EFA25899C3D0023CF77 /* WMHConst.swift */,
+				FA997EF125899C3D0023CF77 /* WMHIVBrowserCell.swift */,
+				FA997EF225899C3D0023CF77 /* WMHIVBrowserVC.swift */,
+				FA997EF525899C3D0023CF77 /* WMHSelectThumbnailCell.swift */,
+				FA997EF325899C3D0023CF77 /* WMHSelectThumbnailCell.xib */,
+				FA997EFC25899C3D0023CF77 /* WMHThumbnailCell.swift */,
+				FA997EF025899C3D0023CF77 /* WMHThumbnailCell.xib */,
+				FA997EFB25899C3D0023CF77 /* WMHThumbnailVC.swift */,
+				FA997EFD25899C3D0023CF77 /* WMHToolAsset.xcassets */,
+				FA997E8125899B6E0023CF77 /* WMHPhotoSDK.h */,
+				FA997E8225899B6E0023CF77 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FA997E8B25899B6E0023CF77 /* WMHPhotoSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA997E8C25899B6E0023CF77 /* WMHPhotoSDKTests.swift */,
+				FA997E8E25899B6E0023CF77 /* Info.plist */,
+			);
+			path = WMHPhotoSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA997E7925899B6E0023CF77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA997E8F25899B6E0023CF77 /* WMHPhotoSDK.h in Headers */,
+				FA997F0625899C3D0023CF77 /* ResultBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA997E7D25899B6E0023CF77 /* WMHPhotoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA997E9225899B6E0023CF77 /* Build configuration list for PBXNativeTarget "WMHPhotoSDK" */;
+			buildPhases = (
+				54AC96ED9F8CD14789C83DBA /* [CP] Check Pods Manifest.lock */,
+				FA997E7925899B6E0023CF77 /* Headers */,
+				FA997E7A25899B6E0023CF77 /* Sources */,
+				FA997E7B25899B6E0023CF77 /* Frameworks */,
+				FA997E7C25899B6E0023CF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMHPhotoSDK;
+			productName = WMHPhotoSDK;
+			productReference = FA997E7E25899B6E0023CF77 /* WMHPhotoSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA997E8625899B6E0023CF77 /* WMHPhotoSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA997E9525899B6E0023CF77 /* Build configuration list for PBXNativeTarget "WMHPhotoSDKTests" */;
+			buildPhases = (
+				F8BD7A41064F984F0537B5DA /* [CP] Check Pods Manifest.lock */,
+				FA997E8325899B6E0023CF77 /* Sources */,
+				FA997E8425899B6E0023CF77 /* Frameworks */,
+				FA997E8525899B6E0023CF77 /* Resources */,
+				0AF2D7672A4D154316402EF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA997E8A25899B6E0023CF77 /* PBXTargetDependency */,
+			);
+			name = WMHPhotoSDKTests;
+			productName = WMHPhotoSDKTests;
+			productReference = FA997E8725899B6E0023CF77 /* WMHPhotoSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA997E7525899B6E0023CF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FA997E7D25899B6E0023CF77 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+					FA997E8625899B6E0023CF77 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = FA997E7825899B6E0023CF77 /* Build configuration list for PBXProject "WMHPhotoSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA997E7425899B6E0023CF77;
+			productRefGroup = FA997E7F25899B6E0023CF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA997E7D25899B6E0023CF77 /* WMHPhotoSDK */,
+				FA997E8625899B6E0023CF77 /* WMHPhotoSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA997E7C25899B6E0023CF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA997F0D25899C3D0023CF77 /* WMHToolAsset.xcassets in Resources */,
+				FA997F0025899C3D0023CF77 /* WMHThumbnailCell.xib in Resources */,
+				FA997F0325899C3D0023CF77 /* WMHSelectThumbnailCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA997E8525899B6E0023CF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF2D7672A4D154316402EF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WMHPhotoSDK-WMHPhotoSDKTests/Pods-WMHPhotoSDK-WMHPhotoSDKTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WMHPhotoSDK-WMHPhotoSDKTests/Pods-WMHPhotoSDK-WMHPhotoSDKTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WMHPhotoSDK-WMHPhotoSDKTests/Pods-WMHPhotoSDK-WMHPhotoSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54AC96ED9F8CD14789C83DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMHPhotoSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BD7A41064F984F0537B5DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMHPhotoSDK-WMHPhotoSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA997E7A25899B6E0023CF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA997F0225899C3D0023CF77 /* WMHIVBrowserVC.swift in Sources */,
+				FA997F0825899C3D0023CF77 /* WMHCompleteButton.swift in Sources */,
+				FA997F0725899C3D0023CF77 /* UIColor.swift in Sources */,
+				FA997F0525899C3D0023CF77 /* WMHSelectThumbnailCell.swift in Sources */,
+				FA997F0B25899C3D0023CF77 /* WMHThumbnailVC.swift in Sources */,
+				FA997F5925899E1F0023CF77 /* WMHPhotoTool.swift in Sources */,
+				FA997F0425899C3D0023CF77 /* WMHBOTools.swift in Sources */,
+				FA997F0E25899C3D0023CF77 /* ResultBox.m in Sources */,
+				FA997F0925899C3D0023CF77 /* WMHAlbumListView.swift in Sources */,
+				FA997F0125899C3D0023CF77 /* WMHIVBrowserCell.swift in Sources */,
+				FA997F0C25899C3D0023CF77 /* WMHThumbnailCell.swift in Sources */,
+				FA997EFF25899C3D0023CF77 /* WMHAlbumListCell.swift in Sources */,
+				FA997F0A25899C3D0023CF77 /* WMHConst.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA997E8325899B6E0023CF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA997E8D25899B6E0023CF77 /* WMHPhotoSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA997E8A25899B6E0023CF77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA997E7D25899B6E0023CF77 /* WMHPhotoSDK */;
+			targetProxy = FA997E8925899B6E0023CF77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA997E9025899B6E0023CF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA997E9125899B6E0023CF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA997E9325899B6E0023CF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262B96A4150F02F79DAA4757 /* Pods-WMHPhotoSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U2KG35WPES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmh.WMHPhotoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA997E9425899B6E0023CF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC8490AA47453BF5C49350F /* Pods-WMHPhotoSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U2KG35WPES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmh.WMHPhotoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA997E9625899B6E0023CF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045A52A9CFD52A0DDA9241B2 /* Pods-WMHPhotoSDK-WMHPhotoSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KG35WPES;
+				INFOPLIST_FILE = WMHPhotoSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmh.WMHPhotoSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA997E9725899B6E0023CF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A41A7E334CCA2B911D2990D /* Pods-WMHPhotoSDK-WMHPhotoSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KG35WPES;
+				INFOPLIST_FILE = WMHPhotoSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wmh.WMHPhotoSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA997E7825899B6E0023CF77 /* Build configuration list for PBXProject "WMHPhotoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA997E9025899B6E0023CF77 /* Debug */,
+				FA997E9125899B6E0023CF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA997E9225899B6E0023CF77 /* Build configuration list for PBXNativeTarget "WMHPhotoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA997E9325899B6E0023CF77 /* Debug */,
+				FA997E9425899B6E0023CF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA997E9525899B6E0023CF77 /* Build configuration list for PBXNativeTarget "WMHPhotoSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA997E9625899B6E0023CF77 /* Debug */,
+				FA997E9725899B6E0023CF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA997E7525899B6E0023CF77 /* Project object */;
+}
